@@ -59,6 +59,6 @@ def generate_launch_description():
         rsp,
         start_gazebo,
         start_slam_toolbox,
+        gz_bridges,
         spawn_entity,
-        gz_bridges
     ])
