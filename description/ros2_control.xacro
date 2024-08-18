@@ -11,7 +11,6 @@
       <param name="timeout_ms">1000</param>
       <param name="enc_counts_per_rev">3436</param>
     </hardware>
-    <!-- Note everything below here is the same as the Gazebo one -->
     <joint name="left_wheel_joint">
       <command_interface name="velocity">
         <param name="min">-10</param>

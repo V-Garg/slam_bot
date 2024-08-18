@@ -12,8 +12,9 @@ import xacro
 
 def generate_launch_description():
 
-    # Check if we're told to use sim time
+    # Check if simulation
     use_sim_time = LaunchConfiguration('use_sim_time')
+    gazebo_simulation = LaunchConfiguration
 
     # Process the URDF file
     pkg_path = os.path.join(get_package_share_directory('slam_bot'))
